@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "facebook extension",
+  "version": "1",
+  "description": "Comment Bcock",
+  
+  "content_scripts": [ {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["jquery.min.js", "main.js"]
+    } ]
+}
